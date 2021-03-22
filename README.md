@@ -1,6 +1,12 @@
 # Pymaceuticals_challenge
 
 The purpose of this assignment was to analyze data from a recent animal study. The study took mice who were identified with having a SCC tumor growth and treated them with a variety of drug regimens. The drugs in the study were Capomulin, Ceftamin, Infubinol, Ketapril, Naftisol, Placebo, Propriva, Ramicane, Stelasyn, and Zoniferol.
+
+## Observations and Insights
+Three notiable observations and insights from looking at the data below include:
+1. Capomulin and Ramicane are the two most effective drug regimens in the study, while Propriva was the least effective drug regimen.
+2. There was a strong positive correlation between average tumor size and weight of the mice, with the correlation coeffient being 0.71.
+3. Out of the four most promising drug regimens (Capomulin, Ramicane, Infubinol, and Ceftamin), Infubinol had one outlier with a tumor volume of 36.321346 that was below the minimum.
  
 ## Analysis 
 To begin the analysis, two datasets were merged - one dataset included mouse metadata and one dataset include the study results.After merging the two datasets, we cleaned the merged dataset to remove the mouse ID that had duplicated timepoint information. WIth the removed Mouse ID, the study now contained results for 248 mice.
