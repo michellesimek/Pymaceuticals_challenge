@@ -1,16 +1,6 @@
 # Pymaceuticals_challenge
 
-The purpose of this assignment was to analyze data from a recent animal study. The study took mice who were identified with having a SCC tumor growth and treated them with a variety of drug regimens. The drugs in the study were
-    * Capomulin
-    * Ceftamin
-    * Infubinol
-    * Ketapril
-    * Naftisol
-    * Placebo
-    * Propriva
-    * Ramicane
-    * Stelasyn
-    * Zoniferol
+The purpose of this assignment was to analyze data from a recent animal study. The study took mice who were identified with having a SCC tumor growth and treated them with a variety of drug regimens. The drugs in the study were Capomulin, Ceftamin, Infubinol, Ketapril, Naftisol, Placebo, Propriva, Ramicane, Stelasyn, and Zoniferol.
  
 ## Analysis 
 To begin the analysis, two datasets were merged - one dataset included mouse metadata and one dataset include the study results.After merging the two datasets, we cleaned the merged dataset to remove the mouse ID that had duplicated timepoint information. WIth the removed Mouse ID, the study now contained results for 248 mice.
@@ -21,6 +11,8 @@ Using the clean merged dataset, a table was created to get summary statistics fo
 #### Measurement Data and Plots
 * ##### Bar Plots
 Bar plots were generated to show the total number of mice per drug regimen in the study. 
+
+![GitHub Logo](/Graphs/total_count_per_drug.png)
 
 * ##### Pie Plots
 Pie plots were generated to show the distribution male and female mice in the study. 
